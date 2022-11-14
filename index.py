@@ -89,6 +89,15 @@ def Length(lst):
 print(Length([37, 2, 1, -9]))
 print(Length([]))
 
+
+def Length2(someList):
+    return len(someList)
+
+
+print(Length([37, 2, 1, -9]))
+print(Length([]))
+
+
 """Minimum - Create a function that takes a list of numbers and returns the minimum value in the list. If the list is empty, have the function return False.
 Example: minimum([37,2,1,-9]) should return -9
 Example: minimum([]) should return False"""
